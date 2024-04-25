@@ -13,12 +13,16 @@ display: inline;
     margin: 0 auto;
 }
 
-.article{
+section .article{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .article article img{
-    height: 200px;
+    height: 180px;
 }
 
+section .article article{
+    width: 30%;
+}
