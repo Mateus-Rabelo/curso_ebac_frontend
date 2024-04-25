@@ -8,10 +8,18 @@
 header .container{
     background-color:coral;
     padding: 20px 0;
+    margin-bottom: 10px;
 }
 
 header li {
 display: inline;
+
+}
+
+header li a {
+
+    color: #000;
+
 }
 
 .container{
@@ -30,13 +38,18 @@ section .articles{
 }
 
 section .articles article{
-    width: 30%;
+    width: 50%;
 }
 
 section{
     padding: 20px 0;
 }
 
-section h2{
-    padding: 20px 0;
+section h2, .articles article {
+    margin-bottom:  16px;
+}
+
+section .articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
