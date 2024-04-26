@@ -4,9 +4,10 @@
     padding: 0;
 }
 
-
+body > header {
+    background-color: #979797;
+}
 header .container{
-    background-color:rgb(100, 93, 90);
     padding: 9px;
 }
 
@@ -23,7 +24,7 @@ header li a {
 
 
 .container{
-    width: 1330px;
+    width: 1366px;
     margin: 0 auto;
 }
 
@@ -52,5 +53,16 @@ section h2, .articles article {
 section .articles article h3 {
     margin-top: 8px;
     margin-bottom: 8px;
+}
+
+#TLG {
+background-color: rgba(95, 158, 160, 0.3);
+}
+#ETTM{
+    background-color:rgba(255, 127, 80, 0.3);
+}
+
+section h3{
+    font-size: larger;
 }
 
