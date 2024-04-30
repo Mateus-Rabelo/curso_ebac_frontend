@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 0;
+    background-color: rgb(58, 6, 58);
+    color: aliceblue;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.cabeçalho{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .cabeçalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
