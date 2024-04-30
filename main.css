@@ -26,8 +26,13 @@ header nav li a{
     margin: 0 auto;
 }
 
-header .cabeçalho{
+header .cabeçalho,
+section .cabeçalho{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+section .cabeçalho img{
+    height: 300px;
 }
