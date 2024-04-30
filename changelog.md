@@ -15,3 +15,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - added changelog.md
 ### Added - 2024-04-30
 - Cabeçalho do projeto
+- fonte do site
+- fotos
+- contato 
+- local
+- rodapé e copyright
+- "Sobre a oficina" e Fonte customisada
