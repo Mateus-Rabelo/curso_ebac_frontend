@@ -8,6 +8,11 @@ header{
     padding: 16px 0;
     background-color: rgb(58, 6, 58);
     color: aliceblue;
+    font-family: "Permanent Marker", cursive;
+}
+
+body{
+    font-family: "Paytone One", sans-serif;
 }
 
 header nav li{
@@ -35,4 +40,19 @@ section .cabeçalho{
 
 section .cabeçalho img{
     height: 300px;
+}
+
+section .cabeçalho{
+    align-items: flex-start;
+}
+
+section{
+    padding:  24px 0;
+}
+
+section h2{
+    margin-bottom: 9px;
+}
+section img{
+    margin-right: 20px;
 }
