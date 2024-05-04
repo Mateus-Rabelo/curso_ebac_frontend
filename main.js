@@ -1,4 +1,5 @@
-const form = document.getElementById('botao')
-form.addEventListener('submit', function(e) {
-    e.preventDefault();
-})
+    const formulario1 = document.getElementById('valorA')
+    const formulario2 = document.getElementById('valorB')
+    function validanum (params) {
+        return formulario2.value
+    }
