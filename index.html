@@ -6,14 +6,17 @@
     <title>document</title>
 </head>
 <body>
-    <Header>
-        <H1>Formulário Numérico</H1>
-    </Header>
-    <form>
-        <input type="number" id="valorA"  placeholder="Número A">
-        <input type="number" id="valorB"  placeholder="Número B">
-        <button type="submit" id="botao">Enviar</button>
-    </form>
-    <script src="./main.js"></script>
-</body>
+    <nav>
+        <div class="container">
+            <h1>Formulário exercício html js</h1>
+            <form id="form-confirm">
+                <input type="number" id="valor-a" required placeholder="Digite o valor A" />
+                <input type="number" id="valor-b" required placeholder="Digite o valor B" />
+                <button type="submit">Validar</button>
+            </form>
+            <p class="success-message"></p>
+        </div>
+    </nav> 
+        <script src="./main.js"></script>
+    </body>
 </html>
