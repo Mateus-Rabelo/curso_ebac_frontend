@@ -1,7 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Sedan SC", serif;
     background-color: #f4f4f4;
 }
+
+h2{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
 form {
     max-width: 500px;
     margin: 0 auto;
