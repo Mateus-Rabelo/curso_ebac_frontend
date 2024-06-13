@@ -2,6 +2,33 @@
 @use 'produtos';
 @use 'responsividade';
 
+// Mixins
+@mixin container($max-width) {
+    max-width: $max-width;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@mixin flex-center($justify: space-between, $align: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin button-style($bg-color, $text-color, $padding: 8px 0, $border-radius: 8px) {
+    display: block;
+    background-color: $bg-color;
+    color: $text-color;
+    text-align: center;
+    padding: $padding;
+    border-radius: $border-radius;
+    text-decoration: none;
+    &:hover {
+        background-color: darken($bg-color, 10%);
+    }
+}
+
+// Base styles
 * {
     margin: 0;
     padding: 0;
@@ -18,9 +45,7 @@ li {
 }
 
 .container {
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
+    @include container(1024px);
 }
 
 header {
@@ -30,9 +55,7 @@ header {
     left: 0;
 
     .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include flex-center;
         padding: 16px 0;
     }
 }
@@ -53,6 +76,10 @@ header {
 
 section {
     padding: 56px 0;
+
+section {
+    padding: 56px 0;
 }
 
+}
 
