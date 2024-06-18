@@ -1,0 +1,18 @@
+@use'variavel';
+body{
+    background-color: aliceblue;
+}
+
+header{
+    background-color:$corPrincipal;
+    h1{
+        color: antiquewhite;
+    }
+}
+
+article{
+    background-color: $corSecundaria;
+    h2{
+        color: antiquewhite;
+    }
+}
