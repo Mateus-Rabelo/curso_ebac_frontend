@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     // Configuração do projeto
     grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-
+  
       // Compilar LESS
     less: {
         development: {
@@ -11,7 +11,7 @@ module.exports = function(grunt) {
             paths: ["assets/css"]
         },
         files: {
-            "path/to/result.css": "path/to/source.less"
+            "./build/main.css": "./src/style.less"
         }
         }
     },
@@ -22,8 +22,8 @@ module.exports = function(grunt) {
           banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
         },
         build: {
-        src: 'path/to/source.js',
-        dest: 'path/to/result.min.js'
+        src: './src/source.js',
+        dest: './build/main.js'
         }
     }
     });
