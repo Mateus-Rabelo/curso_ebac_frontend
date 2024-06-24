@@ -11,7 +11,7 @@ module.exports = function(grunt) {
             paths: ["assets/css"]
         },
         files: {
-            "./build/main.css": "./src/style.less"
+            "main.css": "style.less"
         }
         }
     },
@@ -22,8 +22,8 @@ module.exports = function(grunt) {
           banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
         },
         build: {
-        src: './src/source.js',
-        dest: './build/main.js'
+        src: 'source.js',
+        dest: 'main.js'
         }
     }
     });
